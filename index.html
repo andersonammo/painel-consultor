@@ -27,8 +27,15 @@
         import { getFirestore, doc, setDoc, getDoc, onSnapshot } from 'https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js';
 
         // Firebase Configuration
-        const firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
-        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        {
+  apiKey: "AIzaSyA2w-s3ZGRlUW3KJ12Qy6fqdUJYL7TpwcE",
+  authDomain: "proximo-nivel-7bc9d.firebaseapp.com",
+  projectId: "proximo-nivel-7bc9d",
+  storageBucket: "proximo-nivel-7bc9d.firebasestorage.app",
+  messagingSenderId: "108222503240",
+  appId: "1:108222503240:web:31e62f4fafd58f8e7abb7d",
+  measurementId: "G-KSQEND9KWH"
+};
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
